@@ -1,19 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-	  	<meta charset="utf-8">
-	  	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale-=1.0, maximum-scale-=1.0, minimus-scale=1.0">
-	  	<title>User Testing 360°</title>
-	  	<link rel="stylesheet" href="css/animate.css">
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/icomoon.">
-		<link rel="stylesheet" type="text/css" href="css/queries.css">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-	</head>
-	<body>
-		<!--Escribe aqui tu codigo-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale-=1.0, maximum-scale-=1.0, minimus-scale=1.0">
+  	<title>Contacto</title>
+  	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/icomoon.">
+	<link rel="stylesheet" type="text/css" href="css/queries.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<header class="bg-hd"><!--Comineza Encabezado con menú, sección e imágen de fondo-->
+			<div class="row"><!--Menú-->
+          		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+            		<nav class="navbar" role="navigation"><!-- Menú para en dispositivos móviles -->
+              			<div class="navbar-header">
+                			<button type="button" class="navbar-toggle" data-toggle="collapse"
+                       		data-target=".navbar-ex1-collapse">
+								<span class="sr-only">Desplegar navegación</span>
+								<span class="icon-bar text-white">=</span>
+								<span class="icon-bar text-white">=</span>
+								<span class="icon-bar text-white">=</span>
+                			</button>
+                			<a href="" target="blank"><!--Logo-->
+                				<img src="image/user-r.png" alt="Test" class="pequeño">
+                			</a>
+              			</div>
+						<!-- Enlaces de navegación -->
+						<div class="collapse navbar-collapse navbar-ex1-collapse">
+							<ul class="nav navbar-nav navbar-right ">
+								<li class="active"><a href="#service">¿Qué me ofrece?</a></li>
+								<li><a href="#ejemplo">¿Cómo funciona?</a></li>
+								<li><a href="#test">¿Por qué usarlo?</a></li>
+								<li><a href="contact.html">Contactanos</a></li>
+        					</ul>
+      					</div>
+    				</nav>
+  				</div>
+			</div><!--Fin del menú-->
+			<div class="row"><!--Texto-->
+				<h1 class="text-center text-white mg-t"><strong>Obtén videos de personas reales <br>Utilizando tu sitio web, en 1 Hora</strong></h1>
+			</div>
+			<section class="bg-bl mg-t"><!--Segmento azúl con botón-->
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><!--Texto-->
+						<h2 class="text-right">PRUEBA GRATUITA</h2>
+						<p class="text-right">Obten un video gratis de 5 minutos</p>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><!--Botón-->
+						<button type="button" class="btn btn-info btn-lg mg-5" data-toggle="modal" data-target="#myModal">Open Modal</button>
+							 <!-- Modal -->
+						<div class="modal fade" id="myModal" role="dialog">
+							<div class="modal-dialog">
+									<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title">Opss!</h4>
+									</div>
+									<div class="modal-body">
+										<p>Sitio en contrucción</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section><!--Segmento azúl con botón-->
+		</header><!--Termina Encabezado con menú, sección e imágen de fondo-->
+		<section id="service"><!--Comienza Segmento Nuestros Servicios-->
+			<div class="row"><!--Titulo-->
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<h2 class="text-center text-blue mer mg-t">Nuestros Servicios</h2>
+				</div>
+			</div>
+			<div class="row"><!--Col-detalles-->
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+					<i class="fa-5x fa-youtube-play mg-l" aria-hidden="true"></i>
+					<h3 class="text-center text-blue mg-t">Pruebalo<br>Gratis</h3>
+					<p class="text-center text-white">Obtén un primer video screencast de un<br> usuario navegando tu página</p>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+					<i class="fa-5x icon-clock text-celeste"></i>
+					<h3 class="text-center text-blue mg-t">Compra el <br>servicio completo</h3>
+					<p class="text-center text-white">Sí te gustó, compra nuestro servicio<br>completo que incluye 7 videos y feedback</p>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+					<i class="fa-5x fa-files-o mg-l" aria-hidden="true"></i>
+					<h3 class="text-center text-blue mg-t">Obtén el resultado<br>en 1 día</h3>
+					<p class="text-center text-white">Te haremos llegar los videos y el feedback<br>completo el mismo día</p>
+				</div>
+			</div>
+		</section><!-- Termina Segmento Nuestros Servicios-->
+		<section><!--Comienza Segmento Icóno-->
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><!--Icono-->
+					<img src="image/separador.png" alt="separador" class="pequeño mg-l abs">
+					<hr class="text-blue mg-t">
+				</div>
+			</div>
+		</section><!--Termina Segmento Icóno-->
+		<section id="ejemplo"><!--Comienza Ejemplo-->
+			<div class="row mg-t">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><!--Texto-->
+					<span class="text-blue mer">Ejemplo de usar<img src="image/logo-2.jpg" alt="Test" class="pequeño largo"></span>
+					<p class="text-white mg-5">En este te damos un ejemplo de un integrante de nuestro panel evaluando<br>la experencia de usario de</p>
+					<a href="http://mimediamanzana.co/ mg-5">http://mimediamanzana.co/</a>
+					<p class="text-white mg-5">El objetivo de <i>User Testing 360</i> es identificar situaciones confusas de los usuarios en su web y describir soluciones que garanticen una experiencia de <br>uso satisfactorio.</p>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><!--Video-->
+					<iframe src="https://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen class="mediano"></iframe>
+				</div>
+			</div>
+		</section><!--Termina Ejemplo-->
+		<section id="test"><!--Comienza Porque usar Testing-->
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><!--Imágen de fondo-->
 
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-    </body>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><!--Texto-->
+
+				</div>
+			</div>		
+		</section><!--Termina Porque usar Testing-->
+		<section><!--Comienza cinta azúl con botón-->
+			
+		</section><!--Termina cinta azúl con botón-->
+		<footer><!--Comienza Píe de páina y contacto-->
+			
+		</footer><!--Termina Píe de páina y contacto-->
+	</div>
+
+<!--Codigo Script-->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
 </html>
