@@ -9,18 +9,14 @@ body{
 	background-size: cover;
 	background-position: center;
 	width: 100%;
-	height: 35em;
-	opacity: 0.9;
+	height: 35em;		
+	opacity: 0.8;
 } 
 .navbar a{
 	color: black !important;
 	font-family: 'Lora', serif;
-	text-decoration-style: none;
+	text-decoration: none;
 }
-li{
-	color: blue;
-}
-/**/
 /*Medidas imágenes*/
 .pequeño{
 	height: 50%;
@@ -38,10 +34,26 @@ li{
 	width: 100%;
 	height: 30em;
 }
+.icono{
+	color: white;
+	position: relative;
+	display: inline-block;
+	margin-left: 95%;
+}
 /*Background*/
 .bg-bl{
 	background-color: rgba(51, 124, 208, 0.8);
 	height: 9em;
+}
+.opa{
+	background-image: url(../image/sec-2.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 40em;
+	opacity: 0.5;
+}
+.bg-bl-ico{
+	background-color: rgba(51, 124, 208, 0.8);
 }
 /*Generales*/
 .text-white{
@@ -51,9 +63,14 @@ li{
 	color: blue;
 }
 .mer{
-	font-family: 'Merriweather', serif;
+	font-family: 'Dosis', sans-serif;
 }
-/*Generales*/
+.nor{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.per{
+	font-family: 'Ubuntu', sans-serif;
+}
 .mg-t{
 	margin-top: 10%;
 }
@@ -62,4 +79,12 @@ li{
 }
 .mg-l{
 	margin-left: 45%;
+}
+.mg-ls{
+	margin-top: -10%;
+}
+.brd{
+	border-radius: 100%;
+	border: 1px solid blue;
+	padding: 3%;
 }
