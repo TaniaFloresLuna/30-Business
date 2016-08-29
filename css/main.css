@@ -2,7 +2,6 @@ body{
 	margin: 0;
 	padding: 0;
 }
-
 /*Header*/
 .bg-hd{
 	background-image: url(../image/large.jpg);
@@ -39,6 +38,11 @@ body{
 	position: relative;
 	display: inline-block;
 	margin-left: 95%;
+}
+.icono:hover{ 	
+	height: 2em; 	
+	width: 2em; 	
+	background-color: black; 
 }
 /*Background*/
 .bg-bl{
